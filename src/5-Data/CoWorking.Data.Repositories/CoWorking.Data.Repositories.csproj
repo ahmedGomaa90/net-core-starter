@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\4-Domain\CoWorking.Domain.Entities\CoWorking.Domain.Entities.csproj" />
+    <ProjectReference Include="..\..\4-Domain\CoWorking.Domain.DataContracts\CoWorking.Domain.DataContracts.csproj" />
+    <ProjectReference Include="..\CoWorking.Data.Context\CoWorking.Data.Context.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.1" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+</Project>

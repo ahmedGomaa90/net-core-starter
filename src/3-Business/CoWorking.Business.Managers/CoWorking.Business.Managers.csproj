@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\4-Domain\CoWorking.Domain.Entities\CoWorking.Domain.Entities.csproj" />
+    <ProjectReference Include="..\..\4-Domain\CoWorking.Domain.BusinessContracts\CoWorking.Domain.BusinessContracts.csproj" />
+    <ProjectReference Include="..\..\4-Domain\CoWorking.Domain.DataContracts\CoWorking.Domain.DataContracts.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+</Project>
